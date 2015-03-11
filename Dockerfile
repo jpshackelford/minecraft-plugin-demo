@@ -1,4 +1,4 @@
-on 0.0.1
+#Version 0.0.1
 FROM ibmliberty
 MAINTAINER Kyle Brown “brownkyl@us.ibm.com”
 RUN mkdir minecraft
@@ -10,4 +10,3 @@ RUN mkdir plugins
 ADD Tutorial.jar /plugins/Tutorial.jar
 CMD java -XX:MaxPermSize=128M -Xms512m -Xmx1024m -jar spigot-1.8.3.jar nogui
 EXPOSE 25565
-
