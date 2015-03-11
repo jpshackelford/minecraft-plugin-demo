@@ -1,5 +1,5 @@
 on 0.0.1
-FROM websphere-liberty
+FROM ibmliberty
 MAINTAINER Kyle Brown “brownkyl@us.ibm.com”
 RUN mkdir minecraft
 RUN cd minecraft
