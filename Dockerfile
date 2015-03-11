@@ -1,5 +1,5 @@
 #Version 0.0.2
-FROM ibmliberty
+FROM registry-ice.ng.bluemix.net/ibmliberty:latest
 MAINTAINER Kyle Brown “brownkyl@us.ibm.com”
 RUN mkdir minecraft
 RUN cd minecraft
