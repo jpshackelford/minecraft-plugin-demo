@@ -1,4 +1,4 @@
-# Version 0.0.4
+# Version 0.0.5
 FROM registry-ice.ng.bluemix.net/ibmliberty:latest
 MAINTAINER Kyle Brown “brownkyl@us.ibm.com”
 RUN mkdir minecraft
